@@ -17,7 +17,7 @@
         <ul class="navbar-nav">
           
           <li class="nav-item d-none d-sm-inline-block">
-            <a href="<?php echo base_url ?>" class="nav-link"><?php echo (!isMobileDevice()) ? $_settings->info('name'):$_settings->info('short_name'); ?></a>
+            <a href="<?php echo base_url ?>admin/?page=system_info"><?php echo (!isMobileDevice()) ? $_settings->info('name'):$_settings->info('short_name'); ?></a>
           </li>
         </ul>
         <!-- Right navbar links -->

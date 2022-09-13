@@ -86,7 +86,7 @@
                       <a href="<?php echo base_url ?>admin/?page=user/user_list" class="nav-link nav-user_list">
                         <i class="nav-icon fas fa-users"></i>
                         <p>
-                          User List
+                          Admin List
                         </p>
                       </a>
                     </li>
